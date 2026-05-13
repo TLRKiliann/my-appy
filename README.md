@@ -35,16 +35,8 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-# Update all versions**
+# Update all versions
 pip install -r requirements.txt
-
-# Selective update
-pip install --upgrade scapy
-
-pip freeze > requirements.txt
-
-# Or update to the latest compatible versions
-pip install --upgrade -r requirements.txt
 ```
 
 ## Run app 
